@@ -1,9 +1,11 @@
 :root {
-    --title-color: fuchsia;
+    --background: black;
+    --primary-text-color: fuchsia;
+    --secondary-text-color: white;
 }
 
 body {
-    background: black;
+    background: var(--background);
 }
 
 header {
@@ -12,5 +14,12 @@ header {
 }
 
 h1 {
-    color: var(--title-color);
+    color: var(--primary-text-color);
+}
+
+p {
+    color: var(--secondary-text-color);
+    text-align: center;
+    padding-left: 210px;
+    padding-right: 210px;
 }
